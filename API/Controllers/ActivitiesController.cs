@@ -22,7 +22,7 @@ namespace API.Controllers
     [HttpGet]
     public async Task<ActionResult<List<Activity>>> List(CancellationToken ct)
     {
-      return await _mediator.Send(new List.Query(),ct);
+      return await _mediator.Send(new List.Query(), ct);
     }
     [HttpGet("{id}")]
 
@@ -30,7 +30,10 @@ namespace API.Controllers
     {
       return await _mediator.Send(new Details.Query { Id = id });
     }
-
-
+    [HttpPost]
+    public async Task<ActionResult<Unit>> Create(Create.Command command)
+    {
+      return await _mediator.Send(command);
+    }
   }
 }
