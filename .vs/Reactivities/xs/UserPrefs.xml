@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{928F096C-273D-40B8-8921-D3C21D582A53}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/Program.cs">
+    <Files>
+      <File FileName="Infrastucture/Security/JwtGenerator.cs" Line="19" Column="6" />
+      <File FileName="Infrastucture/Security/UserAccessor.cs" />
+      <File FileName="Domain/Activity.cs" />
+      <File FileName="Domain/AppUser.cs" />
+      <File FileName="Domain/Value.cs" />
+      <File FileName="Application/User/CurrentUser.cs" Line="12" Column="4" />
+      <File FileName="API/Program.cs" Line="40" Column="1" />
+      <File FileName="API/Program.cs" Line="48" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Reactivities" expanded="True">
+            <Node name="API" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="Application" expanded="True">
+              <Node name="User" expanded="True" />
+            </Node>
+            <Node name="Infrastucture" expanded="True">
+              <Node name="Security" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/aca/Desktop/Reactivities/Application/User/CurrentUser.cs" relfile="Application/User/CurrentUser.cs" line="29" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
