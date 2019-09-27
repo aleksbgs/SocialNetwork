@@ -10,16 +10,15 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
+  [AllowAnonymous]
   public class ActivitiesController : BaseController
   {
-
     [HttpGet]
     public async Task<ActionResult<List<Activity>>> List(CancellationToken ct)
     {
       return await Mediator.Send(new List.Query(), ct);
     }
     [HttpGet("{id}")]
-    [Authorize]
     public async Task<ActionResult<Activity>> Details(Guid id)
     {
       return await Mediator.Send(new Details.Query { Id = id });
